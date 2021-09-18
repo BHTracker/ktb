@@ -1,5 +1,5 @@
 body, html {
-    padding: 0;
+    padding: 20;
     margin: 0;
     height: 100%;
 }
@@ -14,13 +14,3 @@ body, html {
 /* This is one way of adding borders, 
    if you *always* know that you have exactly 4 cells 
    aligned like this */
-.box:first-child {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
-.box:nth-child(2) {
-    border-bottom: 1px solid black;
-}
-.box:nth-child(3) {
-    border-right: 1px solid black;
-}
